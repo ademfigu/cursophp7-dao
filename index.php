@@ -26,13 +26,22 @@ echo json_encode($search);*/
 $aluno->insert();
 echo $aluno;*/
 
+// alterar umusuario
+/*$usuario = new Usuario();
+$usuario->loadById(8);
+$usuario->update("professor", "profes");
+echo $usuario;*/
+
+//deletar
+
 $usuario = new Usuario();
 
-$usuario->loadById(8);
+$usuario->loadById(7);
 
-$usuario->update("professor", "profes");
+$usuário->delete();
 
 echo $usuario;
+
 
 
 
