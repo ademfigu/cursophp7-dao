@@ -16,9 +16,24 @@ echo json_encode($lista);*/
 echo json_encode($search);*/
 
 //carregar um usuario usando o login e senha
-$usuario= new Usuario();
-$usuario->login("root","!@#$");
+//$usuario= new Usuario();
+//$usuario->login("root","!@#$");
+
+//echo $usuario;
+
+//criando um novo usuário com INSERT
+/*$aluno= new Usuario("aluno", "@1un0");
+$aluno->insert();
+echo $aluno;*/
+
+$usuario = new Usuario();
+
+$usuario->loadById(8);
+
+$usuario->update("professor", "profes");
+
 echo $usuario;
+
 
 
 // código incial antes de montar o código de usuários
