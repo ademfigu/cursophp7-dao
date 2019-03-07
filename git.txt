@@ -1,0 +1,23 @@
+Ademilsom@Ademilsom-PC MINGW64 /c/xampp/htdocs/DAO/Class (master)
+$ git add --all
+
+Ademilsom@Ademilsom-PC MINGW64 /c/xampp/htdocs/DAO/Class (master)
+$ git commit -m "criamos a classe usuario"
+[master e74a16e] criamos a classe usuario
+ 3 files changed, 133 insertions(+), 2 deletions(-)
+ create mode 100644 sql.php
+
+Ademilsom@Ademilsom-PC MINGW64 /c/xampp/htdocs/DAO/Class (master)
+$ git push origin master
+Enumerating objects: 10, done.
+Counting objects: 100% (10/10), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (6/6), done.
+Writing objects: 100% (6/6), 1.40 KiB | 204.00 KiB/s, done.
+Total 6 (delta 0), reused 0 (delta 0)
+To https://github.com/ademfigu/cursophp7-dao.git
+   c455202..e74a16e  master -> master
+
+Ademilsom@Ademilsom-PC MINGW64 /c/xampp/htdocs/DAO/Class (master)
+$
+
